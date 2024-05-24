@@ -49,7 +49,7 @@ package labrpc
 //   pass svc to srv.AddService()
 //
 
-import "labgob"
+import "labgob" // to resolve conflict, need to modify to: "github.com/szhou12/mit-6.824-2020-golabs/src/labgob"
 import "bytes"
 import "reflect"
 import "sync"
